@@ -1,0 +1,3 @@
+app_joboard_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: AppJoboardBundle:Default:index }
