@@ -3,6 +3,8 @@
 namespace App\JoboardBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use App\JoboardBundle\Utils\Joboard as Joborad;
+
 /**
  * Job
  */
