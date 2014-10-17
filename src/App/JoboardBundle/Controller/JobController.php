@@ -30,6 +30,11 @@ class JobController extends Controller
                 $category->getId(),
                 $this->container->getParameter('max_jobs_on_homepage'))
             );
+            $activeJobsCount = $em->getRepository('AppJoboardBundle:Job')->countActiveJobs($category->getId());
+            if ($activeJobsCount >= $this->container->getParameter('max_jobs_on_homepage')) {
+                $activeJobsCount -= $this->container->getParameter('max_jobs_on_homepage');
+                $category->setMoreJobs($activeJobsCount);
+            }
         }
 
         
