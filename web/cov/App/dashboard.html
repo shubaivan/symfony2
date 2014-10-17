@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/symfony/src/App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/nv.d3.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="../js/html5shiv.min.js"></script>
+  <script src="../js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../index.html">/var/www/symfony/src</a></li>
+        <li><a href="index.html">App</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#17">Job</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Form/JobType.php.html#9">JobType</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Repository/CategoryRepository.php.html#13">CategoryRepository</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Repository/JobRepository.php.html#13">JobRepository</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Category.php.html#10">Category</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Affiliate.php.html#9">Affiliate</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Controller/DefaultController.php.html#7">DefaultController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Controller/JobController.php.html#15">JobController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/DataFixtures/ORM/LoadCategoryData.php.html#12">LoadCategoryData</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/DataFixtures/ORM/LoadJobData.php.html#15">LoadJobData</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Controller/CategoryController.php.html#17">CategoryController</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#17">Job</a></td><td class="text-right">1806</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Category.php.html#10">Category</a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="App/JoboardBundle/Controller/JobController.php.html#15">JobController</a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="App/JoboardBundle/Repository/JobRepository.php.html#13">JobRepository</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="App/JoboardBundle/Controller/CategoryController.php.html#17">CategoryController</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="App/JoboardBundle/DataFixtures/ORM/LoadJobData.php.html#15">LoadJobData</a></td><td class="text-right">12</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#271"><abbr title="Job::getDescription">getDescription</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#282"><abbr title="Job::setHowToApply">setHowToApply</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#259"><abbr title="Job::setDescription">setDescription</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#248"><abbr title="Job::getLocation">getLocation</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#236"><abbr title="Job::setLocation">setLocation</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#294"><abbr title="Job::getHowToApply">getHowToApply</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#305"><abbr title="Job::setToken">setToken</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#351"><abbr title="Job::setIsActivated">setIsActivated</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#340"><abbr title="Job::getIsPublic">getIsPublic</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#328"><abbr title="Job::setIsPublic">setIsPublic</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#317"><abbr title="Job::getToken">getToken</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#225"><abbr title="Job::getPosition">getPosition</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#213"><abbr title="Job::setPosition">setPosition</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#133"><abbr title="Job::getType">getType</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#121"><abbr title="Job::setType">setType</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#110"><abbr title="Job::getId">getId</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Category.php.html#197"><abbr title="Category::setSlugValue">setSlugValue</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#144"><abbr title="Job::setCompany">setCompany</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#156"><abbr title="Job::getCompany">getCompany</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#202"><abbr title="Job::getUrl">getUrl</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#190"><abbr title="Job::setUrl">setUrl</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#179"><abbr title="Job::getLogo">getLogo</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#167"><abbr title="Job::setLogo">setLogo</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#363"><abbr title="Job::getIsActivated">getIsActivated</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#374"><abbr title="Job::setEmail">setEmail</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Form/JobType.php.html#15"><abbr title="JobType::buildForm">buildForm</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#521"><abbr title="Job::setExpiresAtValue">setExpiresAtValue</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#512"><abbr title="Job::getLocationSlug">getLocationSlug</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#507"><abbr title="Job::getPositionSlug">getPositionSlug</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Form/JobType.php.html#40"><abbr title="JobType::setDefaultOptions">setDefaultOptions</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Form/JobType.php.html#50"><abbr title="JobType::getName">getName</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Repository/JobRepository.php.html#57"><abbr title="JobRepository::countActiveJobs">countActiveJobs</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Repository/JobRepository.php.html#39"><abbr title="JobRepository::getActiveJob">getActiveJob</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Repository/JobRepository.php.html#15"><abbr title="JobRepository::getActiveJobs">getActiveJobs</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Repository/CategoryRepository.php.html#15"><abbr title="CategoryRepository::getWithJobs">getWithJobs</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#502"><abbr title="Job::getCompanySlug">getCompanySlug</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#497"><abbr title="Job::setUpdatedAtValue">setUpdatedAtValue</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#420"><abbr title="Job::setCreatedAt">setCreatedAt</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#409"><abbr title="Job::getExpiresAt">getExpiresAt</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#397"><abbr title="Job::setExpiresAt">setExpiresAt</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#386"><abbr title="Job::getEmail">getEmail</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#432"><abbr title="Job::getCreatedAt">getCreatedAt</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#443"><abbr title="Job::setUpdatedAt">setUpdatedAt</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#485"><abbr title="Job::setCreatedAtValue">setCreatedAtValue</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#478"><abbr title="Job::getCategory">getCategory</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#466"><abbr title="Job::setCategory">setCategory</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#455"><abbr title="Job::getUpdatedAt">getUpdatedAt</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Category.php.html#190"><abbr title="Category::getSlug">getSlug</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Category.php.html#178"><abbr title="Category::setSlug">setSlug</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Affiliate.php.html#49"><abbr title="Affiliate::__construct">__construct</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/DataFixtures/ORM/LoadJobData.php.html#40"><abbr title="LoadJobData::getOrder">getOrder</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/DataFixtures/ORM/LoadJobData.php.html#17"><abbr title="LoadJobData::load">load</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/DataFixtures/ORM/LoadCategoryData.php.html#35"><abbr title="LoadCategoryData::getOrder">getOrder</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Affiliate.php.html#59"><abbr title="Affiliate::getId">getId</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Affiliate.php.html#70"><abbr title="Affiliate::setUrl">setUrl</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Affiliate.php.html#116"><abbr title="Affiliate::setToken">setToken</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Affiliate.php.html#105"><abbr title="Affiliate::getEmail">getEmail</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Affiliate.php.html#93"><abbr title="Affiliate::setEmail">setEmail</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Affiliate.php.html#82"><abbr title="Affiliate::getUrl">getUrl</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/DataFixtures/ORM/LoadCategoryData.php.html#14"><abbr title="LoadCategoryData::load">load</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Controller/JobController.php.html#229"><abbr title="JobController::createDeleteForm">createDeleteForm</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Controller/JobController.php.html#77"><abbr title="JobController::createCreateForm">createCreateForm</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Controller/JobController.php.html#50"><abbr title="JobController::createAction">createAction</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Controller/JobController.php.html#22"><abbr title="JobController::indexAction">indexAction</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Controller/DefaultController.php.html#9"><abbr title="DefaultController::indexAction">indexAction</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Controller/JobController.php.html#93"><abbr title="JobController::newAction">newAction</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Controller/JobController.php.html#108"><abbr title="JobController::showAction">showAction</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Controller/JobController.php.html#202"><abbr title="JobController::deleteAction">deleteAction</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Controller/JobController.php.html#172"><abbr title="JobController::updateAction">updateAction</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Controller/JobController.php.html#157"><abbr title="JobController::createEditForm">createEditForm</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Controller/JobController.php.html#130"><abbr title="JobController::editAction">editAction</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Affiliate.php.html#128"><abbr title="Affiliate::getToken">getToken</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Affiliate.php.html#139"><abbr title="Affiliate::setIsActive">setIsActive</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Category.php.html#129"><abbr title="Category::removeAffiliate">removeAffiliate</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Category.php.html#117"><abbr title="Category::addAffiliate">addAffiliate</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Category.php.html#106"><abbr title="Category::getJobs">getJobs</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Category.php.html#96"><abbr title="Category::removeJob">removeJob</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Category.php.html#139"><abbr title="Category::getAffiliates">getAffiliates</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Category.php.html#143"><abbr title="Category::__toString">__toString</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Category.php.html#162"><abbr title="Category::getMoreJobs">getMoreJobs</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Category.php.html#157"><abbr title="Category::setMoreJobs">setMoreJobs</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Category.php.html#152"><abbr title="Category::getActiveJobs">getActiveJobs</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Category.php.html#147"><abbr title="Category::setActiveJobs">setActiveJobs</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Category.php.html#84"><abbr title="Category::addJob">addJob</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Category.php.html#73"><abbr title="Category::getName">getName</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Affiliate.php.html#185"><abbr title="Affiliate::addCategory">addCategory</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Affiliate.php.html#174"><abbr title="Affiliate::getCreatedAt">getCreatedAt</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Affiliate.php.html#162"><abbr title="Affiliate::setCreatedAt">setCreatedAt</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Affiliate.php.html#151"><abbr title="Affiliate::getIsActive">getIsActive</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Affiliate.php.html#197"><abbr title="Affiliate::removeCategory">removeCategory</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Affiliate.php.html#207"><abbr title="Affiliate::getCategories">getCategories</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Category.php.html#61"><abbr title="Category::setName">setName</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Category.php.html#50"><abbr title="Category::getId">getId</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Category.php.html#39"><abbr title="Category::__construct">__construct</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Affiliate.php.html#214"><abbr title="Affiliate::setCreatedAtValue">setCreatedAtValue</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="App/JoboardBundle/Controller/CategoryController.php.html#19"><abbr title="CategoryController::showAction">showAction</a></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="App/JoboardBundle/Controller/CategoryController.php.html#19"><abbr title="CategoryController::showAction">showAction</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="App/JoboardBundle/Repository/JobRepository.php.html#15"><abbr title="JobRepository::getActiveJobs">getActiveJobs</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="App/JoboardBundle/Controller/JobController.php.html#22"><abbr title="JobController::indexAction">indexAction</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#521"><abbr title="Job::setExpiresAtValue">setExpiresAtValue</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="App/JoboardBundle/Controller/JobController.php.html#202"><abbr title="JobController::deleteAction">deleteAction</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="App/JoboardBundle/Controller/JobController.php.html#172"><abbr title="JobController::updateAction">updateAction</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="App/JoboardBundle/Repository/JobRepository.php.html#39"><abbr title="JobRepository::getActiveJob">getActiveJob</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Job.php.html#485"><abbr title="Job::setCreatedAtValue">setCreatedAtValue</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="App/JoboardBundle/Repository/JobRepository.php.html#57"><abbr title="JobRepository::countActiveJobs">countActiveJobs</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="App/JoboardBundle/DataFixtures/ORM/LoadJobData.php.html#17"><abbr title="LoadJobData::load">load</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="App/JoboardBundle/Controller/JobController.php.html#50"><abbr title="JobController::createAction">createAction</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="App/JoboardBundle/Controller/JobController.php.html#108"><abbr title="JobController::showAction">showAction</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="App/JoboardBundle/Controller/JobController.php.html#130"><abbr title="JobController::editAction">editAction</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Category.php.html#143"><abbr title="Category::__toString">__toString</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="App/JoboardBundle/Entity/Category.php.html#157"><abbr title="Category::setMoreJobs">setMoreJobs</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="http://github.com/sebastianbergmann/php-code-coverage" target="_top">PHP_CodeCoverage 2.0.11</a> using <a href="http://php.net/" target="_top">PHP 5.5.9-1ubuntu4.4</a> and <a href="http://phpunit.de/">PHPUnit 4.3.3</a> at Fri Oct 17 20:55:05 EEST 2014.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../js/jquery.min.js" type="text/javascript"></script>
+  <script src="../js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../js/holder.js" type="text/javascript"></script>
+  <script src="../js/d3.min.js" type="text/javascript"></script>
+  <script src="../js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([11,0,0,0,0,0,0,0,0,0,0,3], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([96,0,0,0,0,0,0,0,0,0,0,3], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.scatter.onlyCircles(false);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,4,"<a href=\"App\/JoboardBundle\/Controller\/CategoryController.php.html#17\">CategoryController<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Controller\/DefaultController.php.html#7\">DefaultController<\/a>"],[0,19,"<a href=\"App\/JoboardBundle\/Controller\/JobController.php.html#15\">JobController<\/a>"],[0,2,"<a href=\"App\/JoboardBundle\/DataFixtures\/ORM\/LoadCategoryData.php.html#12\">LoadCategoryData<\/a>"],[0,3,"<a href=\"App\/JoboardBundle\/DataFixtures\/ORM\/LoadJobData.php.html#15\">LoadJobData<\/a>"],[100,1,"<a href=\"App\/JoboardBundle\/DependencyInjection\/AppJoboardExtension.php.html#15\">AppJoboardExtension<\/a>"],[100,1,"<a href=\"App\/JoboardBundle\/DependencyInjection\/Configuration.php.html#13\">Configuration<\/a>"],[0,16,"<a href=\"App\/JoboardBundle\/Entity\/Affiliate.php.html#9\">Affiliate<\/a>"],[0,20,"<a href=\"App\/JoboardBundle\/Entity\/Category.php.html#10\">Category<\/a>"],[0,42,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#17\">Job<\/a>"],[0,3,"<a href=\"App\/JoboardBundle\/Form\/JobType.php.html#9\">JobType<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Repository\/CategoryRepository.php.html#13\">CategoryRepository<\/a>"],[0,8,"<a href=\"App\/JoboardBundle\/Repository\/JobRepository.php.html#13\">JobRepository<\/a>"],[100,2,"<a href=\"App\/JoboardBundle\/Utils\/Joboard.php.html#10\">Joboard<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.scatter.onlyCircles(false);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,4,"<a href=\"App\/JoboardBundle\/Controller\/CategoryController.php.html#19\">CategoryController::showAction<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Controller\/DefaultController.php.html#9\">DefaultController::indexAction<\/a>"],[0,3,"<a href=\"App\/JoboardBundle\/Controller\/JobController.php.html#22\">JobController::indexAction<\/a>"],[0,2,"<a href=\"App\/JoboardBundle\/Controller\/JobController.php.html#50\">JobController::createAction<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Controller\/JobController.php.html#77\">JobController::createCreateForm<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Controller\/JobController.php.html#93\">JobController::newAction<\/a>"],[0,2,"<a href=\"App\/JoboardBundle\/Controller\/JobController.php.html#108\">JobController::showAction<\/a>"],[0,2,"<a href=\"App\/JoboardBundle\/Controller\/JobController.php.html#130\">JobController::editAction<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Controller\/JobController.php.html#157\">JobController::createEditForm<\/a>"],[0,3,"<a href=\"App\/JoboardBundle\/Controller\/JobController.php.html#172\">JobController::updateAction<\/a>"],[0,3,"<a href=\"App\/JoboardBundle\/Controller\/JobController.php.html#202\">JobController::deleteAction<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Controller\/JobController.php.html#229\">JobController::createDeleteForm<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/DataFixtures\/ORM\/LoadCategoryData.php.html#14\">LoadCategoryData::load<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/DataFixtures\/ORM\/LoadCategoryData.php.html#35\">LoadCategoryData::getOrder<\/a>"],[0,2,"<a href=\"App\/JoboardBundle\/DataFixtures\/ORM\/LoadJobData.php.html#17\">LoadJobData::load<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/DataFixtures\/ORM\/LoadJobData.php.html#40\">LoadJobData::getOrder<\/a>"],[100,1,"<a href=\"App\/JoboardBundle\/DependencyInjection\/AppJoboardExtension.php.html#20\">AppJoboardExtension::load<\/a>"],[100,1,"<a href=\"App\/JoboardBundle\/DependencyInjection\/Configuration.php.html#18\">Configuration::getConfigTreeBuilder<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Affiliate.php.html#49\">Affiliate::__construct<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Affiliate.php.html#59\">Affiliate::getId<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Affiliate.php.html#70\">Affiliate::setUrl<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Affiliate.php.html#82\">Affiliate::getUrl<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Affiliate.php.html#93\">Affiliate::setEmail<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Affiliate.php.html#105\">Affiliate::getEmail<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Affiliate.php.html#116\">Affiliate::setToken<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Affiliate.php.html#128\">Affiliate::getToken<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Affiliate.php.html#139\">Affiliate::setIsActive<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Affiliate.php.html#151\">Affiliate::getIsActive<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Affiliate.php.html#162\">Affiliate::setCreatedAt<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Affiliate.php.html#174\">Affiliate::getCreatedAt<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Affiliate.php.html#185\">Affiliate::addCategory<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Affiliate.php.html#197\">Affiliate::removeCategory<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Affiliate.php.html#207\">Affiliate::getCategories<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Affiliate.php.html#214\">Affiliate::setCreatedAtValue<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Category.php.html#39\">Category::__construct<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Category.php.html#50\">Category::getId<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Category.php.html#61\">Category::setName<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Category.php.html#73\">Category::getName<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Category.php.html#84\">Category::addJob<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Category.php.html#96\">Category::removeJob<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Category.php.html#106\">Category::getJobs<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Category.php.html#117\">Category::addAffiliate<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Category.php.html#129\">Category::removeAffiliate<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Category.php.html#139\">Category::getAffiliates<\/a>"],[0,2,"<a href=\"App\/JoboardBundle\/Entity\/Category.php.html#143\">Category::__toString<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Category.php.html#147\">Category::setActiveJobs<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Category.php.html#152\">Category::getActiveJobs<\/a>"],[0,2,"<a href=\"App\/JoboardBundle\/Entity\/Category.php.html#157\">Category::setMoreJobs<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Category.php.html#162\">Category::getMoreJobs<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Category.php.html#178\">Category::setSlug<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Category.php.html#190\">Category::getSlug<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Category.php.html#197\">Category::setSlugValue<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#110\">Job::getId<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#121\">Job::setType<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#133\">Job::getType<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#144\">Job::setCompany<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#156\">Job::getCompany<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#167\">Job::setLogo<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#179\">Job::getLogo<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#190\">Job::setUrl<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#202\">Job::getUrl<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#213\">Job::setPosition<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#225\">Job::getPosition<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#236\">Job::setLocation<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#248\">Job::getLocation<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#259\">Job::setDescription<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#271\">Job::getDescription<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#282\">Job::setHowToApply<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#294\">Job::getHowToApply<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#305\">Job::setToken<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#317\">Job::getToken<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#328\">Job::setIsPublic<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#340\">Job::getIsPublic<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#351\">Job::setIsActivated<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#363\">Job::getIsActivated<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#374\">Job::setEmail<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#386\">Job::getEmail<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#397\">Job::setExpiresAt<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#409\">Job::getExpiresAt<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#420\">Job::setCreatedAt<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#432\">Job::getCreatedAt<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#443\">Job::setUpdatedAt<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#455\">Job::getUpdatedAt<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#466\">Job::setCategory<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#478\">Job::getCategory<\/a>"],[0,2,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#485\">Job::setCreatedAtValue<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#497\">Job::setUpdatedAtValue<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#502\">Job::getCompanySlug<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#507\">Job::getPositionSlug<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#512\">Job::getLocationSlug<\/a>"],[0,3,"<a href=\"App\/JoboardBundle\/Entity\/Job.php.html#521\">Job::setExpiresAtValue<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Form\/JobType.php.html#15\">JobType::buildForm<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Form\/JobType.php.html#40\">JobType::setDefaultOptions<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Form\/JobType.php.html#50\">JobType::getName<\/a>"],[0,1,"<a href=\"App\/JoboardBundle\/Repository\/CategoryRepository.php.html#15\">CategoryRepository::getWithJobs<\/a>"],[0,4,"<a href=\"App\/JoboardBundle\/Repository\/JobRepository.php.html#15\">JobRepository::getActiveJobs<\/a>"],[0,2,"<a href=\"App\/JoboardBundle\/Repository\/JobRepository.php.html#39\">JobRepository::getActiveJob<\/a>"],[0,2,"<a href=\"App\/JoboardBundle\/Repository\/JobRepository.php.html#57\">JobRepository::countActiveJobs<\/a>"],[100,2,"<a href=\"App\/JoboardBundle\/Utils\/Joboard.php.html#12\">Joboard::slugify<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
