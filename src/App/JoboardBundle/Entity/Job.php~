@@ -35,6 +35,7 @@ class Job
      * @var string
      */
     private $logo;
+    public $file;
 
     /**
      * @var string
@@ -526,4 +527,37 @@ class Job
             $this->expires_at = new \DateTime(date('Y-m-d H:i:s', $now + 86400 * 30));
         }
     }
+    public static function getTypes()
+    {
+        return [
+            'full-time' => 'Полный рабочий день',
+            'part-time' => 'Неполный рабочий день',
+            'freelance' => 'Фриланс'
+        ];
+    }
+
+    public static function getTypeValues()
+    {
+        return array_keys(self::getTypes());
+    }
+    protected function getUploadDir()
+    {
+        return 'uploads/jobs';
+    }
+
+    protected function getUploadRootDir()
+    {
+        return __DIR__.'/../../../../web/'.$this->getUploadDir();
+    }
+
+    public function getWebPath()
+    {
+        return null === $this->logo ? null : $this->getUploadDir().'/'.$this->logo;
+    }
+
+    public function getAbsolutePath()
+    {
+        return null === $this->logo ? null : $this->getUploadRootDir().'/'.$this->logo;
+    }
+
 }

@@ -50,7 +50,7 @@ class JobController extends Controller
     public function createAction(Request $request)
     {
         $entity = new Job();
-        $form = $this->createCreateForm($entity);
+        $form = $this->createCreateForm(new JobType(), $entity);
         $form->handleRequest($request);
 
         if ($form->isValid()) {
@@ -58,7 +58,12 @@ class JobController extends Controller
             $em->persist($entity);
             $em->flush();
 
-            return $this->redirect($this->generateUrl('app_job_show', array('id' => $entity->getId())));
+            return $this->redirect($this->generateUrl('app_job_show', array(
+                'company' => $entity->getCompanySlug(),
+                'location' => $entity->getLocationSlug(),
+                'id' => $entity->getId(),
+                'position' => $entity->getPositionSlug()
+            )));
         }
 
         return $this->render('AppJoboardBundle:Job:new.html.twig', array(
@@ -81,7 +86,7 @@ class JobController extends Controller
             'method' => 'POST',
         ));
 
-        $form->add('submit', 'submit', array('label' => 'Create'));
+
 
         return $form;
     }
@@ -161,7 +166,7 @@ class JobController extends Controller
             'method' => 'PUT',
         ));
 
-        $form->add('submit', 'submit', array('label' => 'Update'));
+
 
         return $form;
     }

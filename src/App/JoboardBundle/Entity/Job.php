@@ -35,6 +35,7 @@ class Job
      * @var string
      */
     private $logo;
+    public $file;
 
     /**
      * @var string
@@ -524,6 +525,85 @@ class Job
         if(!$this->getExpiresAt()) {
             $now = $this->getCreatedAt() ? $this->getCreatedAt()->format('U') : time();
             $this->expires_at = new \DateTime(date('Y-m-d H:i:s', $now + 86400 * 30));
+        }
+    }
+    public static function getTypes()
+    {
+        return [
+            'full-time' => 'Полный рабочий день',
+            'part-time' => 'Неполный рабочий день',
+            'freelance' => 'Фриланс'
+        ];
+    }
+
+    public static function getTypeValues()
+    {
+        return array_keys(self::getTypes());
+    }
+    protected function getUploadDir()
+    {
+        return 'uploads/jobs';
+    }
+
+    protected function getUploadRootDir()
+    {
+        return __DIR__.'/../../../../web/'.$this->getUploadDir();
+    }
+
+    public function getWebPath()
+    {
+        return null === $this->logo ? null : $this->getUploadDir().'/'.$this->logo;
+    }
+
+    public function getAbsolutePath()
+    {
+        return null === $this->logo ? null : $this->getUploadRootDir().'/'.$this->logo;
+    }
+
+
+    /**
+     * @ORM\PrePersist
+     */
+    public function setTokenValue()
+    {
+        // Add your code here
+    }
+
+    /**
+     * @ORM\PrePersist
+     */
+    public function preUpload()
+    {
+        if (null !== $this->file) {
+            // Генерируем уникальное имя для файла
+            $this->logo = uniqid().'.'.$this->file->guessExtension();
+        }
+    }
+
+    /**
+     * @ORM\PostPersist
+     */
+    public function upload()
+    {
+        if (null === $this->file) {
+            return;
+        }
+
+        // Перемещаем файл в наш каталог web/uploads/job
+        $this->file->move($this->getUploadRootDir(), $this->logo);
+
+        unset($this->file);
+    }
+
+    /**
+     * @ORM\PostRemove
+     */
+    public function removeUpload()
+    {
+        if ($this->logo) {
+            if ($file = $this->getAbsolutePath()) {
+                unlink($file);
+            }
         }
     }
 }
