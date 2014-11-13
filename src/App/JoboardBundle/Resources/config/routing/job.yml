@@ -3,11 +3,16 @@ app_job:
     defaults: { _controller: "AppJoboardBundle:Job:index" }
 
 app_job_show:
-    path:     /{company}/{location}/{id}/{position}/
+    pattern:  /{company}/{location}/{id}/{position}/
     defaults: { _controller: "AppJoboardBundle:Job:show" }
     requirements:
-            id:  \d+
+        id:  \d+
 
+app_job_preview:
+    pattern:  /{company}/{location}/{token}/{position}/
+    defaults: { _controller: "AppJoboardBundle:Job:preview" }
+    requirements:
+        token:  \w+
 app_job_new:
     path:     /new
     defaults: { _controller: "AppJoboardBundle:Job:new" }
@@ -18,15 +23,19 @@ app_job_create:
     requirements: { _method: post }
 
 app_job_edit:
-    path:     /{id}/edit
+    path:     /{token}/edit
     defaults: { _controller: "AppJoboardBundle:Job:edit" }
 
 app_job_update:
-    path:     /{id}/update
+    path:     /{token}/update
     defaults: { _controller: "AppJoboardBundle:Job:update" }
     requirements: { _method: post|put }
 
 app_job_delete:
-    path:     /{id}/delete
+    path:     /{token}/delete
     defaults: { _controller: "AppJoboardBundle:Job:delete" }
     requirements: { _method: post|delete }
+app_job_publish:
+    pattern:  /{token}/publish/
+    defaults: { _controller: "AppJoboardBundle:Job:publish" }
+    requirements: { _method: post, token: \w+ }

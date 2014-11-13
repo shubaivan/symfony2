@@ -27,11 +27,8 @@ class JobType extends AbstractType
             ->add('location')
             ->add('description')
             ->add('how_to_apply', null, ['label' => 'Как соискатель может подать свое резюме?'])
-            ->add('token')
             ->add('is_public', null, ['label' => 'Публичная?'])
-
             ->add('email')
-
             ->add('category')
         ;
     }

@@ -1,6 +1,6 @@
 App\JoboardBundle\Entity\Job:
     properties:
-             category:
+                category:
                     - NotBlank: ~
                 type:
                     - NotBlank: ~
@@ -14,8 +14,6 @@ App\JoboardBundle\Entity\Job:
                 description:
                     - NotBlank: ~
                 how_to_apply:
-                    - NotBlank: ~
-                token:
                     - NotBlank: ~
                 email:
                     - NotBlank: ~

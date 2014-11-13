@@ -1,5 +1,7 @@
 <?php
 
+# src/App/JoboardBundle/Repository/JobRepository.php
+
 namespace App\JoboardBundle\Repository;
 
 use Doctrine\ORM\EntityRepository;
@@ -17,17 +19,19 @@ class JobRepository extends EntityRepository
         $qb = $this->createQueryBuilder('j')
             ->where('j.expires_at > :date')
             ->setParameter('date', date('Y-m-d H:i:s', time()))
+            ->andWhere('j.is_activated = :activated')
+            ->setParameter('activated', 1)
             ->orderBy('j.expires_at', 'DESC');
 
-        if ($max) {
+        if($max) {
             $qb->setMaxResults($max);
         }
-         if ($offset){
-             $qb->setFirstResult($offset);
-         }
 
-        if($categoryId)
-        {
+        if($offset) {
+            $qb->setFirstResult($offset);
+        }
+
+        if($categoryId) {
             $qb->andWhere('j.category = :category_id')
                 ->setParameter('category_id', $categoryId);
         }
@@ -36,6 +40,7 @@ class JobRepository extends EntityRepository
 
         return $query->getResult();
     }
+
     public function getActiveJob($id)
     {
         $query = $this->createQueryBuilder('j')
@@ -43,6 +48,8 @@ class JobRepository extends EntityRepository
             ->setParameter('id', $id)
             ->andWhere('j.expires_at > :date')
             ->setParameter('date', date('Y-m-d H:i:s', time()))
+            ->andWhere('j.is_activated = :activated')
+            ->setParameter('activated', 1)
             ->setMaxResults(1)
             ->getQuery();
 
@@ -54,12 +61,15 @@ class JobRepository extends EntityRepository
 
         return $job;
     }
+
     public function countActiveJobs($categoryId = null)
     {
         $qb = $this->createQueryBuilder('j')
             ->select('count(j.id)')
             ->where('j.expires_at > :date')
-            ->setParameter('date', date('Y-m-d H:i:s', time()));
+            ->setParameter('date', date('Y-m-d H:i:s', time()))
+            ->andWhere('j.is_activated = :activated')
+            ->setParameter('activated', 1);
 
         if($categoryId)
         {

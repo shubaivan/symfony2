@@ -8,12 +8,6 @@ use App\JoboardBundle\Utils\Joboard as Joborad;
 /**
  * Job
  */
-
-/**
- * @ORM\PrePersist
- */
-
-
 class Job
 {
     /**
@@ -566,7 +560,9 @@ class Job
      */
     public function setTokenValue()
     {
-        // Add your code here
+        if(!$this->getToken()) {
+            $this->token = sha1($this->getEmail().rand(11111, 99999));
+        }
     }
 
     /**
@@ -606,4 +602,23 @@ class Job
             }
         }
     }
+    public function isExpired()
+    {
+        return $this->getDaysBeforeExpires() < 0;
+    }
+
+    public function expiresSoon()
+    {
+        return $this->getDaysBeforeExpires() < 5;
+    }
+
+    public function getDaysBeforeExpires()
+    {
+        return ceil(($this->getExpiresAt()->format('U') - time()) / 86400);
+    }
+    public function publish()
+    {
+        $this->setIsActivated(true);
+    }
+
 }

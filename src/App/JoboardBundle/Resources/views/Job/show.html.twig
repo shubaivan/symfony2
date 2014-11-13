@@ -20,5 +20,11 @@
         <div class="col-lg-3 text-right">
             <img src="http://placehold.it/200x200">
         </div>
+        <div class="admin-panel">
+            {% if app.request.get('token') %}
+                {% include 'AppJoboardBundle:Job:admin.html.twig' with {'job': entity} %}
+            {% endif %}
+        </div>
     </div>
+
 {% endblock %}
