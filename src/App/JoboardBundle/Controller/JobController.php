@@ -58,10 +58,10 @@ class JobController extends Controller
             $em->persist($entity);
             $em->flush();
 
-            return $this->redirect($this->generateUrl('app_job_show', array(
+            return $this->redirect($this->generateUrl('app_job_preview', array(
                 'company' => $entity->getCompanySlug(),
                 'location' => $entity->getLocationSlug(),
-                'id' => $entity->getId(),
+                'token' => $entity->getToken(),
                 'position' => $entity->getPositionSlug()
             )));
         }
