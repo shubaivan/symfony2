@@ -9,7 +9,7 @@
 /vendor/
 /bin/
 /composer.phar
-/.idea/*
+.idea/*
 *~
 /phpunit-report/*
 /web/cov/*
