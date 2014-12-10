@@ -29,8 +29,8 @@ class JobType extends AbstractType
             ->add('how_to_apply', null, ['label' => 'Как соискатель может подать свое резюме?'])
             ->add('is_public', null, ['label' => 'Публичная?'])
             ->add('email')
-            ->add('category')
-        ;
+            ->add('category');
+
     }
     
     /**

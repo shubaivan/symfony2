@@ -3,7 +3,12 @@
     <ul>
         {% if not job.isActivated %}
             <li><a href="{{ path('app_job_edit', { 'token': job.token }) }}">Редактировать</a></li>
-            <li><a href="{{ path('app_job_edit', { 'token': job.token }) }}">Опубликовать</a></li>
+            <li>
+                <form action="{{ path('app_job_publish', { 'token': job.token }) }}" method="post">
+                    {{ form_widget(publish_form) }}
+                    <button type="submit">Опубликовать</button>
+                </form>
+            </li>
         {% endif %}
         <li>
             <form action="{{ path('app_job_delete', { 'token': job.token }) }}" method="post">
