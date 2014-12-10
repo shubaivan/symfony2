@@ -2,133 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8921fc5-b35f-48a7-8b6d-042fc64be7f0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/web/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/web/cov/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/web/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/web/cov/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/web/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/web/cov/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/DependencyInjection/AcmeDemoExtension.php.html" afterPath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/DependencyInjection/AcmeDemoExtension.php.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/JoboardBundle/Resources/config/doctrine/Affiliate.orm.yml" afterPath="$PROJECT_DIR$/src/App/JoboardBundle/Resources/config/doctrine/Affiliate.orm.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Entity/Affiliate.php.html" afterPath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Entity/Affiliate.php.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/JoboardBundle/Entity/Affiliate.php" afterPath="$PROJECT_DIR$/src/App/JoboardBundle/Entity/Affiliate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/JoboardBundle/Repository/AffiliateRepository.php" afterPath="$PROJECT_DIR$/src/App/JoboardBundle/Repository/AffiliateRepository.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/App/JoboardBundle/DependencyInjection/AppJoboardExtension.php.html" afterPath="$PROJECT_DIR$/web/cov/App/JoboardBundle/DependencyInjection/AppJoboardExtension.php.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/JoboardBundle/Resources/config/doctrine/Category.orm.yml" afterPath="$PROJECT_DIR$/src/App/JoboardBundle/Resources/config/doctrine/Category.orm.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Entity/Category.php.html" afterPath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Entity/Category.php.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/JoboardBundle/Entity/Category.php" afterPath="$PROJECT_DIR$/src/App/JoboardBundle/Entity/Category.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Controller/CategoryController.php.html" afterPath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Controller/CategoryController.php.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/JoboardBundle/Controller/CategoryController.php" afterPath="$PROJECT_DIR$/src/App/JoboardBundle/Controller/CategoryController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/JoboardBundle/Tests/Controller/CategoryControllerTest.php" afterPath="$PROJECT_DIR$/src/App/JoboardBundle/Tests/Controller/CategoryControllerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Repository/CategoryRepository.php.html" afterPath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Repository/CategoryRepository.php.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/JoboardBundle/Repository/CategoryRepository.php" afterPath="$PROJECT_DIR$/src/App/JoboardBundle/Repository/CategoryRepository.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/JoboardBundle/Tests/Repository/CategoryRepositoryTest.php" afterPath="$PROJECT_DIR$/src/App/JoboardBundle/Tests/Repository/CategoryRepositoryTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/App/JoboardBundle/DependencyInjection/Configuration.php.html" afterPath="$PROJECT_DIR$/web/cov/App/JoboardBundle/DependencyInjection/Configuration.php.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/Form/ContactType.php.html" afterPath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/Form/ContactType.php.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/EventListener/ControllerListener.php.html" afterPath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/EventListener/ControllerListener.php.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Controller/DefaultController.php.html" afterPath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Controller/DefaultController.php.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/Controller/DemoController.php.html" afterPath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/Controller/DemoController.php.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/Twig/Extension/DemoExtension.php.html" afterPath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/Twig/Extension/DemoExtension.php.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/Command/HelloWorldCommand.php.html" afterPath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/Command/HelloWorldCommand.php.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/JoboardBundle/Resources/config/doctrine/Job.orm.yml" afterPath="$PROJECT_DIR$/src/App/JoboardBundle/Resources/config/doctrine/Job.orm.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Entity/Job.php.html" afterPath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Entity/Job.php.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/JoboardBundle/Entity/Job.php" afterPath="$PROJECT_DIR$/src/App/JoboardBundle/Entity/Job.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Controller/JobController.php.html" afterPath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Controller/JobController.php.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/JoboardBundle/Controller/JobController.php" afterPath="$PROJECT_DIR$/src/App/JoboardBundle/Controller/JobController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Repository/JobRepository.php.html" afterPath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Repository/JobRepository.php.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/JoboardBundle/Repository/JobRepository.php" afterPath="$PROJECT_DIR$/src/App/JoboardBundle/Repository/JobRepository.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/JoboardBundle/Tests/Repository/JobRepositoryTest.php" afterPath="$PROJECT_DIR$/src/App/JoboardBundle/Tests/Repository/JobRepositoryTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/JoboardBundle/Tests/Entity/JobTest.php" afterPath="$PROJECT_DIR$/src/App/JoboardBundle/Tests/Entity/JobTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Form/JobType.php.html" afterPath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Form/JobType.php.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/JoboardBundle/Form/JobType.php" afterPath="$PROJECT_DIR$/src/App/JoboardBundle/Form/JobType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Utils/Joboard.php.html" afterPath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Utils/Joboard.php.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/JoboardBundle/Utils/Joboard.php" afterPath="$PROJECT_DIR$/src/App/JoboardBundle/Utils/Joboard.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/JoboardBundle/Tests/Utils/JoboardTest.php" afterPath="$PROJECT_DIR$/src/App/JoboardBundle/Tests/Utils/JoboardTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/App/JoboardBundle/DataFixtures/ORM/LoadCategoryData.php.html" afterPath="$PROJECT_DIR$/web/cov/App/JoboardBundle/DataFixtures/ORM/LoadCategoryData.php.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/JoboardBundle/DataFixtures/ORM/LoadCategoryData.php" afterPath="$PROJECT_DIR$/src/App/JoboardBundle/DataFixtures/ORM/LoadCategoryData.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/App/JoboardBundle/DataFixtures/ORM/LoadJobData.php.html" afterPath="$PROJECT_DIR$/web/cov/App/JoboardBundle/DataFixtures/ORM/LoadJobData.php.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/JoboardBundle/DataFixtures/ORM/LoadJobData.php" afterPath="$PROJECT_DIR$/src/App/JoboardBundle/DataFixtures/ORM/LoadJobData.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/Controller/SecuredController.php.html" afterPath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/Controller/SecuredController.php.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/Controller/WelcomeController.php.html" afterPath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/Controller/WelcomeController.php.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/JoboardBundle/Resources/public/css/admin.css" afterPath="$PROJECT_DIR$/src/App/JoboardBundle/Resources/public/css/admin.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/JoboardBundle/Resources/views/Job/admin.html.twig" afterPath="$PROJECT_DIR$/src/App/JoboardBundle/Resources/views/Job/admin.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-theme.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-theme.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/web/cov/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/web/cov/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/js/d3.min.js" afterPath="$PROJECT_DIR$/web/cov/js/d3.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/dashboard.html" afterPath="$PROJECT_DIR$/web/cov/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/Acme/dashboard.html" afterPath="$PROJECT_DIR$/web/cov/Acme/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/dashboard.html" afterPath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/Command/dashboard.html" afterPath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/Command/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/Controller/dashboard.html" afterPath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/Controller/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/DependencyInjection/dashboard.html" afterPath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/DependencyInjection/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/EventListener/dashboard.html" afterPath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/EventListener/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/Form/dashboard.html" afterPath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/Form/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/Twig/dashboard.html" afterPath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/Twig/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/Twig/Extension/dashboard.html" afterPath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/Twig/Extension/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/App/dashboard.html" afterPath="$PROJECT_DIR$/web/cov/App/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/App/JoboardBundle/dashboard.html" afterPath="$PROJECT_DIR$/web/cov/App/JoboardBundle/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Controller/dashboard.html" afterPath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Controller/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/App/JoboardBundle/DataFixtures/dashboard.html" afterPath="$PROJECT_DIR$/web/cov/App/JoboardBundle/DataFixtures/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/App/JoboardBundle/DataFixtures/ORM/dashboard.html" afterPath="$PROJECT_DIR$/web/cov/App/JoboardBundle/DataFixtures/ORM/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/App/JoboardBundle/DependencyInjection/dashboard.html" afterPath="$PROJECT_DIR$/web/cov/App/JoboardBundle/DependencyInjection/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Entity/dashboard.html" afterPath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Entity/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Form/dashboard.html" afterPath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Form/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Repository/dashboard.html" afterPath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Repository/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Utils/dashboard.html" afterPath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Utils/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/web/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/web/cov/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/js/holder.js" afterPath="$PROJECT_DIR$/web/cov/js/holder.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/js/html5shiv.min.js" afterPath="$PROJECT_DIR$/web/cov/js/html5shiv.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/index.html" afterPath="$PROJECT_DIR$/web/cov/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/Acme/index.html" afterPath="$PROJECT_DIR$/web/cov/Acme/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/index.html" afterPath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/Command/index.html" afterPath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/Command/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/Controller/index.html" afterPath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/Controller/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/DependencyInjection/index.html" afterPath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/DependencyInjection/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/EventListener/index.html" afterPath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/EventListener/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/Form/index.html" afterPath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/Form/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/Twig/index.html" afterPath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/Twig/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/Twig/Extension/index.html" afterPath="$PROJECT_DIR$/web/cov/Acme/DemoBundle/Twig/Extension/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/App/index.html" afterPath="$PROJECT_DIR$/web/cov/App/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/App/JoboardBundle/index.html" afterPath="$PROJECT_DIR$/web/cov/App/JoboardBundle/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Controller/index.html" afterPath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Controller/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/App/JoboardBundle/DataFixtures/index.html" afterPath="$PROJECT_DIR$/web/cov/App/JoboardBundle/DataFixtures/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/App/JoboardBundle/DataFixtures/ORM/index.html" afterPath="$PROJECT_DIR$/web/cov/App/JoboardBundle/DataFixtures/ORM/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/App/JoboardBundle/DependencyInjection/index.html" afterPath="$PROJECT_DIR$/web/cov/App/JoboardBundle/DependencyInjection/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Entity/index.html" afterPath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Entity/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Form/index.html" afterPath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Form/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Repository/index.html" afterPath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Repository/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Utils/index.html" afterPath="$PROJECT_DIR$/web/cov/App/JoboardBundle/Utils/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/JoboardBundle/Resources/public/css/job.css" afterPath="$PROJECT_DIR$/src/App/JoboardBundle/Resources/public/css/job.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/JoboardBundle/Resources/public/css/jobs.css" afterPath="$PROJECT_DIR$/src/App/JoboardBundle/Resources/public/css/jobs.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/js/jquery.min.js" afterPath="$PROJECT_DIR$/web/cov/js/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/JoboardBundle/Resources/views/Job/list.html.twig" afterPath="$PROJECT_DIR$/src/App/JoboardBundle/Resources/views/Job/list.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/JoboardBundle/Resources/public/css/main.css" afterPath="$PROJECT_DIR$/src/App/JoboardBundle/Resources/public/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/css/nv.d3.css" afterPath="$PROJECT_DIR$/web/cov/css/nv.d3.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/js/nv.d3.min.js" afterPath="$PROJECT_DIR$/web/cov/js/nv.d3.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/parameters_test.yml" afterPath="$PROJECT_DIR$/app/config/parameters_test.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/js/respond.min.js" afterPath="$PROJECT_DIR$/web/cov/js/respond.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/JoboardBundle/Resources/views/Category/show.html.twig" afterPath="$PROJECT_DIR$/src/App/JoboardBundle/Resources/views/Category/show.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cov/css/style.css" afterPath="$PROJECT_DIR$/web/cov/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/symfony.iml" afterPath="$PROJECT_DIR$/.idea/symfony.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/JoboardBundle/Resources/config/validation.yml" afterPath="$PROJECT_DIR$/src/App/JoboardBundle/Resources/config/validation.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="symfony.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -156,55 +30,21 @@
       <file leaf-file-name="Job.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Entity/Job.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="40.708332" vertical-offset="8762" max-vertical-offset="9435">
-              <caret line="520" column="43" selection-start-line="520" selection-start-column="43" selection-end-line="520" selection-end-column="43" />
+            <state vertical-scroll-proportion="-12.156863" vertical-offset="8635" max-vertical-offset="9435">
+              <caret line="618" column="26" selection-start-line="618" selection-start-column="20" selection-end-line="618" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Job.orm.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Resources/config/doctrine/Job.orm.yml">
+      <file leaf-file-name="admin.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Resources/views/Job/admin.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="431" max-vertical-offset="1080">
-              <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+            <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="630">
+              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
               <folding>
-                <marker date="1418230191712" expanded="true" signature="0:1710" placeholder="App\JoboardBundle\Entity\Job:" />
-                <marker date="1418230191712" expanded="true" signature="1452:1710" placeholder="lifecycleCallbacks:" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Resources/views/Job/index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="540">
-              <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="validation.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Resources/config/validation.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding>
-                <marker date="1415884728753" expanded="true" signature="0:714" placeholder="App\JoboardBundle\Entity\Job:" />
-                <marker date="1415884728753" expanded="true" signature="34:714" placeholder="properties:" />
-                <marker date="1415884728753" expanded="true" signature="62:105" placeholder="category:" />
-                <marker date="1415884728753" expanded="true" signature="122:217" placeholder="type:" />
-                <marker date="1415884728753" expanded="true" signature="184:216" placeholder="Choice:" />
-                <marker date="1415884728753" expanded="true" signature="234:276" placeholder="company:" />
-                <marker date="1415884728753" expanded="true" signature="293:336" placeholder="position:" />
-                <marker date="1415884728753" expanded="true" signature="353:396" placeholder="location:" />
-                <marker date="1415884728753" expanded="true" signature="413:459" placeholder="description:" />
-                <marker date="1415884728753" expanded="true" signature="476:523" placeholder="how_to_apply:" />
-                <marker date="1415884728753" expanded="true" signature="540:611" placeholder="email:" />
-                <marker date="1415884728753" expanded="true" signature="628:661" placeholder="url:" />
-                <marker date="1415884728753" expanded="true" signature="678:714" placeholder="file:" />
+                <element signature="e#147#159#0#Twig" expanded="true" />
+                <element signature="e#269#284#0#Twig" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -214,30 +54,39 @@
         <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="825">
-              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
               <folding>
                 <element signature="e#694#714#0#Twig" expanded="true" />
-                <element signature="e#1152#1163#0#Twig" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="edit.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Resources/views/Job/edit.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.27454242" vertical-offset="0" max-vertical-offset="601">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="1875">
+              <caret line="9" column="89" selection-start-line="9" selection-start-column="87" selection-end-line="9" selection-end-column="89" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Resources/views/Default/index.html.twig">
+      <file leaf-file-name="new.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Resources/views/Job/new.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="105">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.0833335" vertical-offset="13" max-vertical-offset="1875">
+              <caret line="9" column="89" selection-start-line="9" selection-start-column="87" selection-end-line="9" selection-end-column="89" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="job.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Resources/config/routing/job.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="41" max-vertical-offset="690">
+              <caret line="6" column="55" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -248,21 +97,33 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="915">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#12#28#0#Twig" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JobController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="JobController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Controller/JobController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.745098" vertical-offset="64" max-vertical-offset="4665">
-              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.42704627" vertical-offset="630" max-vertical-offset="4665">
+              <caret line="62" column="57" selection-start-line="62" selection-start-column="57" selection-end-line="62" selection-end-column="57" />
               <folding>
-                <element signature="e#1752#1766#0#PHP" expanded="true" />
-                <element signature="e#2045#2081#0#PHP" expanded="true" />
+                <element signature="e#1203#1241#0#PHP" expanded="true" />
+                <element signature="e#1752#1769#0#PHP" expanded="true" />
+                <element signature="e#2054#2090#0#PHP" expanded="true" />
+                <element signature="e#2527#2543#1#PHP" expanded="true" />
+                <element signature="e#2903#2919#1#PHP" expanded="true" />
+                <element signature="e#2996#3032#0#PHP" expanded="true" />
+                <element signature="e#3573#3610#0#PHP" expanded="true" />
+                <element signature="e#4217#4233#0#PHP" expanded="true" />
+                <element signature="e#4385#4422#0#PHP" expanded="true" />
+                <element signature="e#4919#4935#0#PHP" expanded="true" />
+                <element signature="e#5534#5550#0#PHP" expanded="true" />
+                <element signature="e#5868#5885#0#PHP" expanded="true" />
+                <element signature="e#6170#6207#0#PHP" expanded="true" />
+                <element signature="e#7017#7026#1#PHP" expanded="true" />
+                <element signature="e#7875#7912#0#PHP" expanded="true" />
+                <element signature="e#8818#8835#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -272,8 +133,20 @@
         <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Resources/config/routing.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="20" />
+              <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Resources/views/Job/show.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="540">
+              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+              <folding>
+                <element signature="e#768#804#0#Twig" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -316,6 +189,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -363,10 +237,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="uploads" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jobs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -421,88 +291,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="JoboardBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JoboardBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JoboardBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JoboardBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -922,7 +710,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -965,15 +752,15 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -1001,19 +788,20 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20413026" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Symfony2" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27640983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1107,31 +895,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Resources/views/Job/show.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="540">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Resources/views/Job/new.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1250" max-vertical-offset="1875">
-          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Resources/views/Job/list.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="270">
           <caret line="5" column="171" selection-start-line="5" selection-start-column="171" selection-end-line="5" selection-end-column="171" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Resources/views/Job/admin.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="630">
-          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -1272,15 +1039,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="630">
           <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Resources/config/routing/job.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="41" max-vertical-offset="690">
-          <caret line="6" column="55" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1288,15 +1046,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
           <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Resources/views/Job/edit.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="27" max-vertical-offset="1875">
-          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1304,40 +1053,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="281" max-vertical-offset="930">
           <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-          <folding>
-            <marker date="1411927073000" expanded="true" signature="-1:-1" placeholder="&lt;IfModule mod_rewrite.c&gt;" />
-            <marker date="1411927073000" expanded="true" signature="-1:-1" placeholder="&lt;IfModule !mod_rewrite.c&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Form/JobType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.25" vertical-offset="165" max-vertical-offset="840">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Resources/config/validation.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <marker date="1415884728753" expanded="true" signature="0:714" placeholder="App\JoboardBundle\Entity\Job:" />
-            <marker date="1415884728753" expanded="true" signature="34:714" placeholder="properties:" />
-            <marker date="1415884728753" expanded="true" signature="62:105" placeholder="category:" />
-            <marker date="1415884728753" expanded="true" signature="122:217" placeholder="type:" />
-            <marker date="1415884728753" expanded="true" signature="184:216" placeholder="Choice:" />
-            <marker date="1415884728753" expanded="true" signature="234:276" placeholder="company:" />
-            <marker date="1415884728753" expanded="true" signature="293:336" placeholder="position:" />
-            <marker date="1415884728753" expanded="true" signature="353:396" placeholder="location:" />
-            <marker date="1415884728753" expanded="true" signature="413:459" placeholder="description:" />
-            <marker date="1415884728753" expanded="true" signature="476:523" placeholder="how_to_apply:" />
-            <marker date="1415884728753" expanded="true" signature="540:611" placeholder="email:" />
-            <marker date="1415884728753" expanded="true" signature="628:661" placeholder="url:" />
-            <marker date="1415884728753" expanded="true" signature="678:714" placeholder="file:" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1361,59 +1076,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Resources/config/doctrine/Job.orm.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="431" max-vertical-offset="1080">
-          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
-          <folding>
-            <marker date="1418230191712" expanded="true" signature="0:1710" placeholder="App\JoboardBundle\Entity\Job:" />
-            <marker date="1418230191712" expanded="true" signature="1452:1710" placeholder="lifecycleCallbacks:" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Entity/Job.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="40.708332" vertical-offset="8762" max-vertical-offset="9435">
-          <caret line="520" column="43" selection-start-line="520" selection-start-column="43" selection-end-line="520" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Controller/JobController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.745098" vertical-offset="64" max-vertical-offset="4665">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          <folding>
-            <element signature="e#1752#1766#0#PHP" expanded="true" />
-            <element signature="e#2045#2081#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="626">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Resources/views/Category/show.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#12#28#0#Twig" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1425,22 +1092,139 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.2" vertical-offset="0" max-vertical-offset="315">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Form/JobType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.708333" vertical-offset="58" max-vertical-offset="840">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Resources/config/validation.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Resources/config/doctrine/Job.orm.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="431" max-vertical-offset="1080">
+          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Resources/views/Category/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="825">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
           <folding>
             <element signature="e#694#714#0#Twig" expanded="true" />
-            <element signature="e#1152#1163#0#Twig" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Resources/config/routing/job.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27454242" vertical-offset="0" max-vertical-offset="601">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="41" max-vertical-offset="690">
+          <caret line="6" column="55" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="55" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Resources/views/Job/new.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0833335" vertical-offset="13" max-vertical-offset="1875">
+          <caret line="9" column="89" selection-start-line="9" selection-start-column="87" selection-end-line="9" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Resources/views/Job/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="540">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding>
+            <element signature="e#768#804#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Resources/views/Job/edit.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="1875">
+          <caret line="9" column="89" selection-start-line="9" selection-start-column="87" selection-end-line="9" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Resources/views/Job/admin.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="630">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+          <folding>
+            <element signature="e#147#159#0#Twig" expanded="true" />
+            <element signature="e#269#284#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Entity/Job.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.156863" vertical-offset="8635" max-vertical-offset="9435">
+          <caret line="618" column="26" selection-start-line="618" selection-start-column="20" selection-end-line="618" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/JoboardBundle/Controller/JobController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42704627" vertical-offset="630" max-vertical-offset="4665">
+          <caret line="62" column="57" selection-start-line="62" selection-start-column="57" selection-end-line="62" selection-end-column="57" />
+          <folding>
+            <element signature="e#1203#1241#0#PHP" expanded="true" />
+            <element signature="e#1752#1769#0#PHP" expanded="true" />
+            <element signature="e#2054#2090#0#PHP" expanded="true" />
+            <element signature="e#2527#2543#1#PHP" expanded="true" />
+            <element signature="e#2903#2919#1#PHP" expanded="true" />
+            <element signature="e#2996#3032#0#PHP" expanded="true" />
+            <element signature="e#3573#3610#0#PHP" expanded="true" />
+            <element signature="e#4217#4233#0#PHP" expanded="true" />
+            <element signature="e#4385#4422#0#PHP" expanded="true" />
+            <element signature="e#4919#4935#0#PHP" expanded="true" />
+            <element signature="e#5534#5550#0#PHP" expanded="true" />
+            <element signature="e#5868#5885#0#PHP" expanded="true" />
+            <element signature="e#6170#6207#0#PHP" expanded="true" />
+            <element signature="e#7017#7026#1#PHP" expanded="true" />
+            <element signature="e#7875#7912#0#PHP" expanded="true" />
+            <element signature="e#8818#8835#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
